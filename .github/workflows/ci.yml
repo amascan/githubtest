@@ -30,6 +30,4 @@ jobs:
         run: |
             for FOLDER in *; do
               echo "FOLDER: $FOLDER"
-              echo Add other actions to build,
-              echo test, and deploy your project.
             done
