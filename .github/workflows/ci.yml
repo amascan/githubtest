@@ -29,6 +29,7 @@ jobs:
       - name: Run a multi-line script
         run: |
             git --version
+            git branch -r
             for FOLDER in *; do
               echo "FOLDER: $FOLDER"
             done
