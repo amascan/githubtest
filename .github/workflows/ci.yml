@@ -33,6 +33,5 @@ jobs:
               echo "FOLDER: $FOLDER"
             done
 
-workflow:
-  rules:
+rules:
     - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH
