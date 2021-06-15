@@ -13,10 +13,12 @@ on:
     paths:
       - 'githubtest/lambda3/**'
       - '!githubtest/lambda2/**'
-        run: |
-                echo "hello"
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+        run: |
+                echo "hello"
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
