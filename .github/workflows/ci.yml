@@ -13,8 +13,8 @@ on:
     paths:
       - 'githubtest/lambda3/**'
       - '!githubtest/lambda2/**'
-
-        echo "ola"
+        run: |
+                echo "hello"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
