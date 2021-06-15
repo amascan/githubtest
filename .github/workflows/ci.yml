@@ -11,7 +11,7 @@ on:
     branches: [ main ]
 
     paths:
-      - '/**'
+      - 'sub-project/**'
       - '!sub-project/docs/**'
 
 
