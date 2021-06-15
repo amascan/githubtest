@@ -9,9 +9,8 @@ on:
     branches: [ main ]
 
     paths:
-      - '/githubtest/lambda3/**'
-      - '!/githubtest/lambda2/**'
-
+      - 'lambda3/**'
+   
 pull_request:
     branches: [ main ]
 
