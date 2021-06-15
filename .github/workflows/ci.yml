@@ -18,7 +18,7 @@ on:
   workflow_dispatch:
         run: |
                 echo "hello"
-
+            done
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
