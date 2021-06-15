@@ -8,7 +8,6 @@ on:
   push:
     paths:
     - 'sub-project/**'
-    - '!.github/workflows/**'
     branches: [ main ]
   pull_request:
     branches: [ main ]
