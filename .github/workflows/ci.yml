@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-      paths:
-      - 'sub-project/**'
-      - '!.github/workflows/**'
+    paths:
+    - 'sub-project/**'
+    - '!.github/workflows/**'
     branches: [ main ]
   pull_request:
     branches: [ main ]
