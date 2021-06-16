@@ -42,7 +42,7 @@ describe('index.js', () => {
     expect(returnCode).toBe(0)
   })
 
-  // shows how the runner will run a JS action with env / stdout protocol
+  //  shows how the runner will run a JS action with env / stdout protocol
   test('log action run', (done) => {
     process.env['INPUT_PATHS'] = 'common/'
     const actionFile = path.join(getSrcRoot(), 'index.js');
